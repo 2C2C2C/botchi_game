@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// 隔離された街のゲート [MISSION LEVEL: B]
+// https://paiza.jp/botchi/challenges/botchi_b_2003
+
 int main(void)
 {
     // 自分の得意な言語で
