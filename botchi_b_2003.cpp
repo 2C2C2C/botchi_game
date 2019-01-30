@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -6,8 +5,7 @@ int main(void)
 {
     // 自分の得意な言語で
     // Let's チャレンジ！！
-
-  int mapHWN[] = { 0,0,0 };
+	int mapHWN[] = { 0,0,0 };
 	int posX = 0, posY = 0, idx = 0;
 	bool correct = true;
 	std::string size_move;
@@ -21,7 +19,6 @@ int main(void)
 		mapHWN[i] = atoi(size_move.substr(0, idx).c_str());
 		size_move = size_move.substr(idx + 1, size_move.length());
 	}
-
 
 	std::string moveWa = "w";
 	for (int i = 0; i < mapHWN[2]; i++)
